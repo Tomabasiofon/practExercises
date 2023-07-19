@@ -1,0 +1,65 @@
+body{
+    background-color: #232323;
+}
+
+.imgHolder img{
+   display: none;
+}
+
+.placeHolder{
+    max-width: 500px;
+    margin: 50px auto 10px auto;
+    position: relative;
+}
+
+img{
+    width: 100%
+}
+
+#btnDiv{
+    max-width: 500px;
+    margin: 0 auto 10px auto;
+}
+
+/* #btnNext{
+    cursor: pointer;
+    padding: 3px 15px;
+} */
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+#previous {
+    font-size: 50px;
+    width: 30px;
+    padding: 5px;
+    background-color: bisque;
+    position: absolute;
+    top: 39%;
+    left: 0;
+    opacity: 0.6;
+    cursor:pointer;
+}
+
+#next {
+    font-size: 50px;
+    width: 30px;
+    padding: 5px;
+    background-color: bisque;
+    position: absolute;
+    top: 39%;
+    right: 0;
+    opacity: 0.6;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 780px){
+    .placeHolder{
+        max-width: 80vw;
+    }
+}

@@ -1,0 +1,104 @@
+body{
+    font-size: 14px;
+    background-color: #222;
+}
+
+.bigContainer {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.tabBtn{
+    width: 20%;
+    padding: 10px 15px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+}
+
+
+span:hover{
+    cursor: pointer;
+}
+
+.tabDisplay {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    border-collapse: collapse;
+}
+
+
+.DisplayCont {
+    color: #fff;
+    /* padding-right: 5%; */
+    padding: 20px;
+    transition: ease-in 2s;
+   
+}
+
+.DisplayCont h1{
+    font-size: 1.5rem;
+    padding:8px 0 10px 0px;
+}
+
+.DisplayCont p{
+    font-size: 0.8rem;
+    padding:25px 0 20px 0;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.DisplayCont button{
+    padding: 7px 15px;
+    background-color: red;
+    outline: none;
+    font-size: 0.7rem;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.dispBlock{
+    display: block;
+    transition: display 2s;
+}
+
+.dispNone{
+    display: none;
+}
+
+.tabOutlineOn {
+    border-top: 1px ;
+    border-right: 1px ;
+    border-left: 1px;
+    border-collapse: collapse;
+    border-width: 0.5px;
+    border-style: solid;
+    
+}
+
+.tabOutlineOff {
+    border: none;
+    background-color: none;
+}
+
+.tabColor-1 {
+    background-color: blue;
+    border-color: blue;
+}
+
+.tabColor-2 {
+    background-color: goldenrod;
+}
+
+.tabColor-3 {
+    background-color:salmon;
+}

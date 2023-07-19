@@ -1,0 +1,25 @@
+body {
+    background: #232323;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    background:aqua;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.squares {
+    background-color: purple;
+    padding-bottom: 30%;
+    width: 30%;
+    float: left;
+    margin: calc(10% / 8);
+}
